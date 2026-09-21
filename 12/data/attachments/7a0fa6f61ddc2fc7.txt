@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIzOjMyOjQyLjczMTg4OSIsInVzZXJfaWQiOiI0OTM3NTliNi1hYjc0LTQzNTgtYjJhMC0xMGI5NDZiODA2OTQifQ.pyiTbqn_sNjPAaXqQ2S5d379Yd86YRLCEE_KtxwRuL0'\
+  -H 'content-length: 394'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Example inside second range do program writer.","maxScore":91,"minScore":15,"description":"Interest sure challenge ask admit leader. Certainly rock see north night social purpose we. Light from election down war.\nSize top action number radio.","estimatedTime":"10 weeks","previewFileId":"75768ef5-7d4d-44ab-a379-fa52230f44e0","createdByUserId":"493759b6-ab74-4358-b2a0-10b946b80694"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIzOjMyOjQxLjI0Mzk0NiIsInVzZXJfaWQiOiJjNzhmZTM3Ni1iMjUxLTQ5M2EtYjk3Yy02NDJjYmQyNGFkOTUifQ.ppzMTXY7-5uO0YQHiXdNad5kgR6e9WOYJY8xYKkqazQ'\
+  -H 'content-length: 305'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Loss activity happy argue.","maxScore":99,"minScore":1,"description":"Much hot fact decade. Conference great star. Create too third blood suddenly bed his.","estimatedTime":"9 weeks","previewFileId":"be26e4f6-d31c-4e11-b4e4-d918288d248f","createdByUserId":"c78fe376-b251-493a-b97c-642cbd24ad95"}'

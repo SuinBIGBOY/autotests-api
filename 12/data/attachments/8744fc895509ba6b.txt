@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIzOjMyOjQwLjExNTE2MyIsInVzZXJfaWQiOiIxNDZmOTNjZS0xYzMwLTQ5NTAtYjQ0Yy00NDI5YWIzZjQ0NjYifQ.DYpb5Efqu50SHDo1wTZPXoXNLVHCUp_MVvOMV7r6fiA'\
+  -H 'content-length: 391'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Item window involve idea shake.","maxScore":54,"minScore":12,"description":"Line consider husband field child. Brother form world need morning least car where.\nPositive at later task behind every. Bit reality tough cut firm then individual.","estimatedTime":"9 weeks","previewFileId":"3af68888-d80a-422e-9d54-194a1317c28d","createdByUserId":"146f93ce-1c30-4950-b44c-4429ab3f4466"}'

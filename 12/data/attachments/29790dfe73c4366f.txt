@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIzOjMyOjQzLjcyNTg0OCIsInVzZXJfaWQiOiIxMTIyYjY4Ni03MTE3LTRmMmMtYTRhNS01Zjk4YzQzNzY1MDgifQ.B2ATmoWY3Lspdv-HvkgT3HcfAESOyU-E-mzqYQVKOVg'\
+  -H 'content-length: 410'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Cover Mr leg collection small let second.","maxScore":57,"minScore":18,"description":"Miss discussion reality child whether news. Challenge weight your wear.\nIncluding party the pattern exactly. Store minute important top national. Central minute mention low.","estimatedTime":"7 weeks","previewFileId":"9dfae511-0f4c-4cd2-9094-ac0143f7814f","createdByUserId":"1122b686-7117-4f2c-a4a5-5f98c4376508"}'

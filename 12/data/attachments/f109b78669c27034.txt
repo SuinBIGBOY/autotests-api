@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCH request to http://localhost:8000/api/v1/courses/281bb06f-5d19-4477-af2a-50a87973b368
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses/281bb06f-5d19-4477-af2a-50a87973b368
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:31 Check that "title" equals to Mean trial push positive decade.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "max_score" equals to 73
+INFO     BASE_ASSERTIONS:base.py:31 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:31 Check that "description" equals to Coach quality move simply.
+We sign admit fall subject minute. Respond exactly son little film. Possible just far.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema

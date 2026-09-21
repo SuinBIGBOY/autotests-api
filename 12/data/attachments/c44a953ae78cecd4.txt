@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIzOjMyOjQzLjI5ODQ2MiIsInVzZXJfaWQiOiJhYmM5MDE5ZS01YTdlLTRiYTQtODBmOS1mMjJiYzIzYzVmM2YifQ.LICz0stOYo9neChkDXJ5qFzXTdkLhe9vmUlfY-FDFuE'\
+  -H 'content-length: 383'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Force ability threat each thing recognize conference interview.","maxScore":51,"minScore":21,"description":"Trouble cause better. Analysis condition baby perhaps herself foot face. Full outside within industry decide law help effort.","estimatedTime":"8 weeks","previewFileId":"49e42d75-1953-40b9-af99-ee8ae3bd6c7d","createdByUserId":"abc9019e-5a7e-4ba4-80f9-f22bc23c5f3f"}'

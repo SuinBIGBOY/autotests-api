@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIzOjMyOjQyLjI5NzQ5NCIsInVzZXJfaWQiOiIwNjJlN2JmZi0xMzk0LTQ5NGMtOTc5NS1hZmI2YTAxMjQyNmEifQ.JyxL31MmNq75roLG5fyBcrUvQmZz5jLXyZtgHvSWo6o'\
+  -H 'content-length: 387'\
+  -H 'content-type: application/json'\
+  -d '{"title":"This hold travel pay prevent.","maxScore":64,"minScore":4,"description":"Require tonight party material just explain. International society her service at professional minute.\nParticular open gun probably game memory. Fight during area.","estimatedTime":"6 weeks","previewFileId":"289c98cf-0ae7-47e5-81e5-54d01cdbfc89","createdByUserId":"062e7bff-1394-494c-9795-afb6a012426a"}'

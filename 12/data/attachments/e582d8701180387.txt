@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIzOjMyOjQwLjYxMjkwMiIsInVzZXJfaWQiOiI1NzNiOTZmNy05OTEwLTRlMjMtOTI1OS1iNmM1NWRlNzAwZDcifQ.39aW9xWslK5eCeo5lI0h2yQY4BKSihF36t4soC0QBRM'\
+  -H 'content-length: 409'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Kind either million down year if not girl.","maxScore":74,"minScore":21,"description":"Six act wait together store seem final. Deep book improve seven role spring.\nAnother them college order man whom. Western analysis significant glass me few speech perform.","estimatedTime":"6 weeks","previewFileId":"53a234a9-d2eb-4a09-bf68-99fab3bf1455","createdByUserId":"573b96f7-9910-4e23-9259-b6c55de700d7"}'

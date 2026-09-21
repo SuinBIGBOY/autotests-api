@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:31 Check that "title" equals to Deep anyone data recent.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "max_score" equals to 53
+INFO     BASE_ASSERTIONS:base.py:31 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:31 Check that "order_index" equals to 8
+INFO     BASE_ASSERTIONS:base.py:31 Check that "description" equals to About natural nice above. Style identify send conference beat citizen born. After service range meet address man director.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:31 Check that "course_id" equals to bbf5ebfb-3846-4195-88e7-875b59e8dd56
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema
