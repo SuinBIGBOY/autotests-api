@@ -1,10 +1,7 @@
 from pydantic import BaseModel, HttpUrl, FilePath, DirectoryPath
 from pydantic_settings import BaseSettings, SettingsConfigDict
-import os
 from typing import Self
 
-
-env_name = os.getenv("ENV", "local")
 
 class HTTPClientConfig(BaseModel):
     url: HttpUrl
@@ -21,7 +18,7 @@ class TestDataConfig(BaseModel):
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         extra="allow",
-        env_file=f".env.{env_name}",
+        env_file=".env",
         env_file_encoding='utf-8',
         env_nested_delimiter="."
     )
