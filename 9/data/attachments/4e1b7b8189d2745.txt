@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GET request to http://localhost:8000/api/v1/exercises?courseId=6ebc8f84-6626-46ab-bfd9-fbc1980e16dc
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=6ebc8f84-6626-46ab-bfd9-fbc1980e16dc
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:112 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:61 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:31 Check that "id" equals to fbe563d2-6b56-481f-8069-4d781d351034
+INFO     BASE_ASSERTIONS:base.py:31 Check that "title" equals to Attack more if pattern security.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "description" equals to Degree brother decade serious newspaper summer hold.
+Line physical instead. Who truth Mrs Republican office.
+Discover rock human almost it reflect.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:31 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:31 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:31 Check that "order_index" equals to 21
+INFO     BASE_ASSERTIONS:base.py:31 Check that "course_id" equals to 6ebc8f84-6626-46ab-bfd9-fbc1980e16dc
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema

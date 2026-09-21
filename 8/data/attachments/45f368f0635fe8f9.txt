@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIwOjA2OjEzLjI2MTczOCIsInVzZXJfaWQiOiIxYTUzMjFhNS05Zjg1LTQ5ZGMtOTI5Mi02OWVkOThjZjkxMGIifQ.YlviXwzduvVnJ4gU4_9uBjceCVzh8VJpUlxfPL_Lq7s'\
+  -H 'content-length: 395'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Where customer area star.","maxScore":87,"minScore":17,"description":"Purpose cultural movie. Picture in Mrs success true choose. Resource either trouble character investment.\nPresident list first last painting instead. Catch north think wrong.","estimatedTime":"8 weeks","previewFileId":"58d8f3de-accb-4890-95aa-5a79eb99074b","createdByUserId":"1a5321a5-9f85-49dc-9292-69ed98cf910b"}'

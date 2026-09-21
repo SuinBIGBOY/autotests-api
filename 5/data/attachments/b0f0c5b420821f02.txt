@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjIyOjIxLjY3NzU1MSIsInVzZXJfaWQiOiJiNjVlZDY1NS0wN2RmLTRkOGItYjAwOS0zNzc1M2Q5OTQ0ZTQifQ.XmmRFPW7hTi5m7qSI6SmMEj7GJ4blezyp3BaLbQxb0o'\
+  -H 'content-length: 406'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Air politics spring argue.","maxScore":59,"minScore":1,"description":"Drop offer town oil. Agency natural power main whatever our. Cold something sometimes newspaper process by here.\nTheir game low good response option. Summer either spring of job weight.","estimatedTime":"8 weeks","previewFileId":"a9d1a555-6ea5-4bbd-babd-9dd99fb8f162","createdByUserId":"b65ed655-07df-4d8b-b009-37753d9944e4"}'

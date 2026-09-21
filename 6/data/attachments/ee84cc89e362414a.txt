@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjI3OjA5LjA2Mzg3MiIsInVzZXJfaWQiOiJhNzU2MzgwYS1lYTU4LTQwODctYTE2ZC1kMDJjOGExNmM4ZTMifQ.gHwt0tWxCDG6AbBwyl4PV5MTIE5GcbYU76oVqlCRvU0'\
+  -H 'content-length: 285'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Believe next arrive nice main party realize.","maxScore":87,"minScore":27,"description":"Management bad free.\nAttack cost main inside.","estimatedTime":"1 weeks","previewFileId":"99f5c043-9024-4821-ba57-3f32ebf761c7","createdByUserId":"a756380a-ea58-4087-a16d-d02c8a16c8e3"}'

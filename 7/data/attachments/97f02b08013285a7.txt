@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjM1OjM0LjcyNzA4NCIsInVzZXJfaWQiOiI3ZDkwMThlNy00ZmZkLTQwMDgtOTUyZS0yNmJjZTQ4YjQ4MDMifQ.o-Mj8ZDNFn9-mKwumOjm8tf10WzSBOXnn2EItYguINI'\
+  -H 'content-length: 347'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Worry what add.","maxScore":58,"minScore":11,"description":"Structure anything exist discussion within test statement. To fire because right skill.\nLay strong hear none keep. Girl attack rule tax.","estimatedTime":"1 weeks","previewFileId":"2fc848d4-f9c9-4204-806f-283e467213c3","createdByUserId":"7d9018e7-4ffd-4008-952e-26bce48b4803"}'

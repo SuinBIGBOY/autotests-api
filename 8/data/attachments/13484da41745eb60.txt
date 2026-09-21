@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/exercises\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIwOjA2OjE2LjcxODMzNSIsInVzZXJfaWQiOiI5NjMyNjdlMy1mZDNjLTQyOTktYjI5OC04MjJhNDBmMGU2M2YifQ.EB-PwnlrgvMoKfKLXbm8VtZiho8jOdO-tiSEZ7HKqc0'\
+  -H 'content-length: 272'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Game speak should figure.","courseId":"27fe9f3b-c9f8-40e7-813d-fa5c2b2a076d","maxScore":69,"minScore":16,"orderIndex":75,"description":"List data number rock quickly identify. Responsibility happen current national than ever approach.","estimatedTime":"2 weeks"}'

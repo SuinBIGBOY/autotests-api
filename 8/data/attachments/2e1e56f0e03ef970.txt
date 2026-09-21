@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIwOjA2OjEzLjk1OTI4OSIsInVzZXJfaWQiOiJhMTYwOTJmNS1hODUwLTQ4MzQtYWRkMi1lMDg5ZDZhOTkxNmYifQ.2uL0CXy3C-p8lL31un-NP02l5GEojtzbZr6XumiUbqo'\
+  -H 'content-length: 356'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Lawyer necessary successful most quality him close four.","maxScore":78,"minScore":12,"description":"Enjoy modern enjoy young condition expert reveal. Wide product laugh himself. Become father apply writer.","estimatedTime":"3 weeks","previewFileId":"2a7364b7-c935-4825-b181-861124ecafe0","createdByUserId":"a16092f5-a850-4834-add2-e089d6a9916f"}'

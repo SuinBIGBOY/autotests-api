@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjM1OjM0LjQ4ODAyOSIsInVzZXJfaWQiOiI5NWM5MzgxNi1iZjg2LTQ1NjYtOTY0OS01MzIxMmRmMTZhNGMifQ.Jd4PCgvTDyUwh3qx6LaEjmzeI9zE29-PveovZF0hYUE'\
+  -H 'content-length: 404'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Opportunity military science daughter.","maxScore":75,"minScore":27,"description":"Ball site see economic way to sea. Decide decide seek outside hundred.\nMy feel theory allow. Person time why newspaper control. Voice floor good skill check small above.","estimatedTime":"10 weeks","previewFileId":"9cb51ac9-e840-4c24-a123-6e8149a1324d","createdByUserId":"95c93816-bf86-4566-9649-53212df16a4c"}'

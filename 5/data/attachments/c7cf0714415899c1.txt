@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjIyOjIyLjk4MTA1MSIsInVzZXJfaWQiOiI2YWIxNTk1Ny1iMjI0LTQ5NGQtOTExOC1lMWU3NmJkYWQyODEifQ.N1ISZ07PL-6ZbIGTCTi0z3K5_lDnWKzuz3V6uJLRdNY'\
+  -H 'content-length: 423'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Mother international investment share affect.","maxScore":70,"minScore":18,"description":"Response important stage player drop. Attorney tree owner. Parent help television.\nEnvironmental realize college rich meeting health. Nice lot rate. Newspaper almost rest tell these.","estimatedTime":"6 weeks","previewFileId":"cc4ad915-b5e0-46e7-9a21-2059975959ab","createdByUserId":"6ab15957-b224-494d-9118-e1e76bdad281"}'

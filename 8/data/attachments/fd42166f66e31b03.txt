@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIwOjA2OjE2LjcxODMzNSIsInVzZXJfaWQiOiI5NjMyNjdlMy1mZDNjLTQyOTktYjI5OC04MjJhNDBmMGU2M2YifQ.EB-PwnlrgvMoKfKLXbm8VtZiho8jOdO-tiSEZ7HKqc0'\
+  -H 'content-length: 421'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Wish alone find president travel least.","maxScore":56,"minScore":13,"description":"We open region new popular account box. One late leader some. Future six simple not.\nThat any defense whether assume. Yes magazine message sure what who room recent.\nClaim or lay coach.","estimatedTime":"1 weeks","previewFileId":"e7d3be11-9273-4e57-9676-732e3e9c8c14","createdByUserId":"963267e3-fd3c-4299-b298-822a40f0e63f"}'

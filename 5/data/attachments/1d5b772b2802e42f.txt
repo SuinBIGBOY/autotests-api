@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  http://localhost:8000/api/v1/exercises/c7b28c74-ebc6-4072-a162-ba7046afc1f3\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjIyOjIxLjY3NzU1MSIsInVzZXJfaWQiOiJiNjVlZDY1NS0wN2RmLTRkOGItYjAwOS0zNzc1M2Q5OTQ0ZTQifQ.XmmRFPW7hTi5m7qSI6SmMEj7GJ4blezyp3BaLbQxb0o'\
+  -H 'content-length: 351'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Again dinner green standard director standard particularly.","maxScore":74,"minScore":2,"orderIndex":48,"description":"Single finish believe than can the. Throughout ahead option. White according local return.\nFactor high rule here condition office raise. Practice enter check perform. Call finish own next per.","estimatedTime":"10 weeks"}'

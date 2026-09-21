@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjI3OjA2LjQ4MDE1NiIsInVzZXJfaWQiOiJmMTBkNTQ2NS0xMGI5LTRiNjktYTI2NC02ODE4Mjc2ZjU4MmQifQ.QYKOxrfP_hPVvpD528hSj_W6srOuoJDoY1E637ZO47o'\
+  -H 'content-length: 413'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Fact house expert campaign type.","maxScore":100,"minScore":13,"description":"Black pressure something ask. Remember score director positive safe during. Beat sound life rich.\nHeart scene myself economic feeling. Appear American main personal travel stage staff.","estimatedTime":"9 weeks","previewFileId":"7bbf478f-3f5a-43ec-afdd-149ff2f45af8","createdByUserId":"f10d5465-10b9-4b69-a264-6818276f582d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIxOjU0OjE2LjAwMzE1OCIsInVzZXJfaWQiOiJkNjE0OTZmYS0xOWQ1LTQyMDItYThlZC0wNzA0MjljZjA1MDQifQ.YcamFiHy8GnYF1fuw8YFvN8FQd2NehhHrJpCM5bh-ps'\
+  -H 'content-length: 401'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Question sister our though create often.","maxScore":84,"minScore":13,"description":"Think piece traditional. Popular watch tend design statement personal. Popular executive energy old room do none issue. Herself production suffer hand reach half bit.","estimatedTime":"4 weeks","previewFileId":"c62d68b3-cb0e-405e-834f-dfdb18d13ac2","createdByUserId":"d61496fa-19d5-4202-a8ed-070429cf0504"}'

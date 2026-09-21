@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjM1OjM2LjQ4NzM2OSIsInVzZXJfaWQiOiJkMTE2NDM5NC03ZTMxLTRhMDUtYWFhZS03MmJmOWVlNGY3ZDAifQ.JkhKY62ozWHzNJ9rmMV89iWT6o_Q8_Ytyk-mx6_7cTA'\
+  -H 'content-length: 381'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Fall music sister example enjoy.","maxScore":60,"minScore":26,"description":"Stop site again to. Management effect stop ever policy itself. Nature whose wish movement data can itself dog.\nCall once hit themselves others learn Mrs.","estimatedTime":"6 weeks","previewFileId":"d8dddca8-4622-4fda-81d7-e5927478793f","createdByUserId":"d1164394-7e31-4a05-aaae-72bf9ee4f7d0"}'

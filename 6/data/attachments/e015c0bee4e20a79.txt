@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjI3OjA1LjI0MzEyMCIsInVzZXJfaWQiOiIzNTEwYWY1ZS1lMzY0LTQ2MTgtYWI2Ny1iYWJjNmI1YzUzODYifQ.3s2bOQWJ1QGzMHCeomXQuLsduWbnGBJB21NWZpLgsDo'\
+  -H 'content-length: 438'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Conference wonder father success media culture work control.","maxScore":54,"minScore":26,"description":"Seem vote others voice not media structure. Later agency company sort clearly movement structure foot. Give tonight article table less more up throughout.\nFrom interview hand parent.","estimatedTime":"2 weeks","previewFileId":"5784aec1-84db-4517-b84e-26ad85e447cc","createdByUserId":"3510af5e-e364-4618-ab67-babc6b5c5386"}'

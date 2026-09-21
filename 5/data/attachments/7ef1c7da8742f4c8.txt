@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjIyOjIxLjA4ODcwNiIsInVzZXJfaWQiOiJlNDc3NTZlMi0wMDg1LTQ4MmEtODJjNy1lMGVhODZiOTUyNDcifQ.oo5dSWH88kbAXWbiVDw9mjUR5aK3bWUx0DBQGgIChYM'\
+  -H 'content-length: 399'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Somebody save at campaign.","maxScore":73,"minScore":25,"description":"Child outside least feel effort others. Piece who treatment again director.\nPerhaps window religious treat finish. Economy pretty ground culture mission. Then store and exactly.","estimatedTime":"6 weeks","previewFileId":"0ab6e2e8-6930-4b31-829b-d06a46d5655d","createdByUserId":"e47756e2-0085-482a-82c7-e0ea86b95247"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  http://localhost:8000/api/v1/courses/a1afcb35-4ca5-4600-98a9-0bd5933147c7\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIyOjM1OjMzLjA5ODY2MyIsInVzZXJfaWQiOiJjZDA1NDNlOC1lMjA3LTQ0OTQtYWUxMS1kYzg3ODU0NWJlNzAifQ.lZOBwh3kgPIglGrQeg5egNhV7Dn5t983Wac4iU2yfDw'\
+  -H 'content-length: 290'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Boy million bit bag.","maxScore":56,"minScore":11,"description":"Rock next population mention use add season lay. Fly he author somebody break prove.\nSimply brother everyone election. Thought though throw describe because. Idea break opportunity what.","estimatedTime":"7 weeks"}'

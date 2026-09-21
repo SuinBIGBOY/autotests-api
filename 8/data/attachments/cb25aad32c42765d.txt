@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/exercises\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIwOjA2OjE4LjE0MjE5MyIsInVzZXJfaWQiOiI2NWRmNjVkZS00NTg3LTQxM2ItOGNkYy00YWM0ZDQyNjVhNDIifQ.r8SMf0NUvdOLYnpnpMs5jXoBwMF64zY-rOqTOOejqEA'\
+  -H 'content-length: 372'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Out blue final skin recently listen summer station.","courseId":"598dff6d-d6b3-4a6e-8673-e3b82399ef53","maxScore":79,"minScore":13,"orderIndex":44,"description":"Weight manage experience until stage ok. Teach rise if. Effort charge draw rock opportunity pull admit. Idea plan spend business protect.\nTree same his property difficult.","estimatedTime":"3 weeks"}'
