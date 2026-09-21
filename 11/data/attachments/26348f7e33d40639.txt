@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQyLjM0NDQyNSIsInVzZXJfaWQiOiIzMjk4OWMzOC1iZDUwLTQ1NTYtOTBiNS1jNWMxZjcwZjIxM2EifQ.zpZNB27wmC6o-zCoAbVQuSjBrPdQHr2yQ6GO_7QPblI'\
+  -H 'content-length: 395'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Language white pass arrive.","maxScore":78,"minScore":5,"description":"Career evening their force travel court. Happen goal remain.\nAdult short win result know mouth attorney crime. Imagine food base wall. Conference condition its toward local.","estimatedTime":"8 weeks","previewFileId":"630b4c4f-c65f-481d-b60d-637be04d8492","createdByUserId":"32989c38-bd50-4556-90b5-c5c1f70f213a"}'

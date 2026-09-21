@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQ1LjIzMDE3NSIsInVzZXJfaWQiOiIxNmVhYjJmOS04Y2VhLTQ1NDktOWExYS1mOWIwYjgzYTNmM2MifQ.3Zljwgv_pZw4eO_RZE8lWcq6A-9A-aNbUuJEWZxTEOM'\
+  -H 'content-length: 350'\
+  -H 'content-type: application/json'\
+  -d '{"title":"East every owner let.","maxScore":81,"minScore":21,"description":"Third stop relationship decade last prevent. Necessary back fight hear environmental put.\nMake election late nearly once sense thing.","estimatedTime":"4 weeks","previewFileId":"e21909a6-ae4e-463c-a4d8-10c4a5d1ccd4","createdByUserId":"16eab2f9-8cea-4549-9a1a-f9b0b83a3f3c"}'

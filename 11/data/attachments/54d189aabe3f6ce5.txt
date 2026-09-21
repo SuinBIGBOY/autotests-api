@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQzLjk0NDg4OCIsInVzZXJfaWQiOiI0MDQ0MDQxNy02YWM5LTQwNWItOWRhMC05OGIwZGJkZjM0NzEifQ._7lrf0_Y5zZY93SCvDiczqnbFh-B60UUxIbV30KfJvE'\
+  -H 'content-length: 393'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Vote nature population money election state.","maxScore":91,"minScore":30,"description":"Take professional doctor challenge read church. Always wall start blood sister his.\nFuture capital event. Service room heavy. Sell try next morning game.","estimatedTime":"6 weeks","previewFileId":"b4f738e9-8f02-42f6-a621-47526e259f14","createdByUserId":"40440417-6ac9-405b-9da0-98b0dbdf3471"}'

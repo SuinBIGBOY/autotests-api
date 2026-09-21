@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQ3LjEzMTI1NyIsInVzZXJfaWQiOiJmNjkwYTBjMi00N2RiLTQ0NzktOTQ0Ni1mYjExZmY3MTBmNmMifQ.5Vpt1Es2dSTMWgcj0Y3no3o2XODuiwxVFtdIN2hC4mw'\
+  -H 'content-length: 394'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Prove together never stand add.","maxScore":73,"minScore":27,"description":"Old answer management mind near professional instead. Law bit market full team far happen.\nExactly return yourself we after unit. Themselves management laugh cultural.","estimatedTime":"7 weeks","previewFileId":"283df945-4864-4f97-b19b-22353d375a51","createdByUserId":"f690a0c2-47db-4479-9446-fb11ff710f6c"}'

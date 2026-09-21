@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQ0LjUyNzM0OCIsInVzZXJfaWQiOiIxMTYzNTZjZS01YTgxLTQwYjAtOGIxYy1mMzI2NjE1YWZjYjYifQ.XosiYkCoXN4GZ0KoIezvTrzi79pvcIfyeX3G2O2J4l8'\
+  -H 'content-length: 401'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Option foot little oil must strategy recognize partner.","maxScore":54,"minScore":29,"description":"Place support support southern use business them. Suffer collection tough hold production color table both. Eat ability know writer under player large.","estimatedTime":"1 weeks","previewFileId":"d7926e2b-ee4d-4cba-a993-d0dc40d48014","createdByUserId":"116356ce-5a81-40b0-8b1c-f326615afcb6"}'

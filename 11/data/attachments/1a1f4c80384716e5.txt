@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  http://localhost:8000/api/v1/exercises/6eceb510-cf77-44e1-9a01-c54a945d9ad5\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQ1LjIzMDE3NSIsInVzZXJfaWQiOiIxNmVhYjJmOS04Y2VhLTQ1NDktOWExYS1mOWIwYjgzYTNmM2MifQ.3Zljwgv_pZw4eO_RZE8lWcq6A-9A-aNbUuJEWZxTEOM'\
+  -H 'content-length: 311'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Tend agreement mean energy serious.","maxScore":88,"minScore":12,"orderIndex":23,"description":"Staff still whole agreement could economic. Apply cup growth teacher alone high movie.\nReason fear stay environmental force expert line. Pay lay travel bit sometimes get throw.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  http://localhost:8000/api/v1/courses/4419709c-b8fd-4d78-aa0e-4e62dd06c358\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQyLjM0NDQyNSIsInVzZXJfaWQiOiIzMjk4OWMzOC1iZDUwLTQ1NTYtOTBiNS1jNWMxZjcwZjIxM2EifQ.zpZNB27wmC6o-zCoAbVQuSjBrPdQHr2yQ6GO_7QPblI'\
+  -H 'content-length: 261'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Source reach meeting claim image big.","maxScore":76,"minScore":7,"description":"Six relate nothing day. Chance middle building reflect significant. Rock hot computer remember speech. Reveal involve vote save including she.","estimatedTime":"8 weeks"}'

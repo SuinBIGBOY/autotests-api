@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:31 Check that "title" equals to Vote nature population money election state.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:31 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:31 Check that "description" equals to Take professional doctor challenge read church. Always wall start blood sister his.
+Future capital event. Service room heavy. Sell try next morning game.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:31 Check that "preview_file_id" equals to b4f738e9-8f02-42f6-a621-47526e259f14
+INFO     BASE_ASSERTIONS:base.py:31 Check that "created_by_user_id" equals to 40440417-6ac9-405b-9da0-98b0dbdf3471
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema

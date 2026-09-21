@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/exercises\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQ1LjgxMzM2MyIsInVzZXJfaWQiOiIwMWE3OWUyOS05Mzc1LTQzMzMtOGQ4Mi02NWFlOWJlOTQ1OGEifQ.9TjlsL_r-6Xz0WY_ncIdQmyO3XmDaK6sgRA2KUcCwkg'\
+  -H 'content-length: 331'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Executive surface although.","courseId":"df11f230-392f-4b3b-830a-313eae0a2165","maxScore":95,"minScore":13,"orderIndex":50,"description":"Matter ten cause. Whether eye raise become century others benefit.\nSomeone eye easy nearly behind laugh. Wife throughout film green medical while brother.","estimatedTime":"8 weeks"}'

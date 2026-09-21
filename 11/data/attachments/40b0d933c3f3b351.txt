@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDIyOjQzOjQ1LjgxMzM2MyIsInVzZXJfaWQiOiIwMWE3OWUyOS05Mzc1LTQzMzMtOGQ4Mi02NWFlOWJlOTQ1OGEifQ.9TjlsL_r-6Xz0WY_ncIdQmyO3XmDaK6sgRA2KUcCwkg'\
+  -H 'content-length: 325'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Manage Congress if ever.","maxScore":55,"minScore":13,"description":"Politics American read nor sing thousand north available. Family majority reason under. Choose which wide.","estimatedTime":"6 weeks","previewFileId":"0d709c6f-d4df-4bd3-ba8a-5d9ee0dca8c4","createdByUserId":"01a79e29-9375-4333-8d82-65ae9be9458a"}'
