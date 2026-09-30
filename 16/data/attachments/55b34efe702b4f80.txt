@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjAzOjE5LjM3NzE1MyIsInVzZXJfaWQiOiI4YTE3NjY2MS1kYTFmLTRjMmMtODZjMi1kMTRlNzQwMGE0NzgifQ.NBKwiZJAk9T-s8xPCp4P_d2p42zrO4cQqu3sq5UJS0c'\
+  -H 'content-length: 368'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Laugh child word production keep unit.","maxScore":81,"minScore":26,"description":"Another those health election poor plan. Commercial strong establish this. Role possible somebody including. At oil there sit off buy.","estimatedTime":"10 weeks","previewFileId":"b3b15301-cf3a-43bc-b9ea-af5da6f57c0b","createdByUserId":"8a176661-da1f-4c2c-86c2-d14e7400a478"}'

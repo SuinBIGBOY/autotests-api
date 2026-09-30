@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjAzOjIyLjQxNTE4NiIsInVzZXJfaWQiOiJlYTJkYmJlMi1hOTRiLTQxMGYtYmRmZC0yYWQ1YTAyYzcyYWUifQ.hAzr6aiTvk4bZvhqySIopTmTBGNgUqVx1gAdxPEYxSo'\
+  -H 'content-length: 437'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Human few happen tell light billion administration.","maxScore":64,"minScore":7,"description":"Place tax not two. Home attention seem main health conference production partner.\nInvestment wonder window center. Particularly brother make glass gun level. Language professional poor hotel.","estimatedTime":"6 weeks","previewFileId":"9b2b7a18-f6ae-40f0-8ee1-be31530d54de","createdByUserId":"ea2dbbe2-a94b-410f-bdfd-2ad5a02c72ae"}'

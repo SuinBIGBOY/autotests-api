@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjAzOjIyLjE0MTYwMiIsInVzZXJfaWQiOiI2MTExMzNlNy1hYzE4LTQ0ZWYtOWRkZC01NDQ2N2IwZmQ1MDIifQ.YFzwNYDZMhYxXOcLh2gXdUgEaNpir4S05XjgZRfFKq4'\
+  -H 'content-length: 277'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Just car plan.","maxScore":95,"minScore":18,"description":"Attention focus beat. Couple act cost already rock behavior present.","estimatedTime":"9 weeks","previewFileId":"b028a874-f916-48bf-94f4-5ea25062a8e8","createdByUserId":"611133e7-ac18-44ef-9ddd-54467b0fd502"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjAzOjIwLjI3MTM5MiIsInVzZXJfaWQiOiI0MGNhNmU5NC02MzZkLTRhOTctODQ2My1lY2M3MjJjMTFjNmQifQ.6ihOE_m7gR5mERXJWJph4tsahwCw7oQzZTtC1bUpdxg'\
+  -H 'content-length: 389'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Everybody weight cultural push tonight should.","maxScore":87,"minScore":6,"description":"Age this usually unit yes minute.\nLaugh scene effect enter talk relationship. Person oil serious believe live break born. Throw between thing above.","estimatedTime":"7 weeks","previewFileId":"03cfe558-b3f0-4e1c-8121-e58c4e11cc46","createdByUserId":"40ca6e94-636d-4a97-8463-ecc722c11c6d"}'

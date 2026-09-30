@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjAzOjI0LjkzMTYzNCIsInVzZXJfaWQiOiI3MzAxYThlNC02ZDg2LTQ5ZGYtYTMzMi1lNDkzMWU4MTUyMDkifQ.baFH1lwrM6mhvDatE8rqyHvgqVIyQgWChe1G1X_Tkmk'\
+  -H 'content-length: 372'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Front part whatever almost drop through all.","maxScore":89,"minScore":19,"description":"Next few including head remember answer red. Field because prepare.\nListen side modern control great. Interesting sell market agent.","estimatedTime":"8 weeks","previewFileId":"ac53ebd9-2a6c-4c46-9e46-a265b5c61748","createdByUserId":"7301a8e4-6d86-49df-a332-e4931e815209"}'
