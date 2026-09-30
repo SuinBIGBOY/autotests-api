@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  http://localhost:8000/api/v1/courses/4cd177b6-1075-4881-b63c-139453cb8f1d\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM1LjIxMjEyOSIsInVzZXJfaWQiOiI0ZTk3NzVlMi1lY2QwLTQxOTktYjUxYS1mNGExNjhmY2RhOTcifQ.NXUMDr63W7Am4ts7v5_UNFR2L8MC668y_sIwdS8Yy88'\
+  -H 'content-length: 225'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Happen paper control admit set since.","maxScore":64,"minScore":15,"description":"Which fast use artist meeting the. True discussion prove. Nor how Mrs skill southern impact majority six.","estimatedTime":"7 weeks"}'

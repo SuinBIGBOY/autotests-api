@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  http://localhost:8000/api/v1/exercises/386655f1-016d-43b8-b178-137cb1f6d6d7\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM3LjY5NzEwMyIsInVzZXJfaWQiOiI0OTRkZDVkYi1kNWFlLTQ2M2QtYjBmMi1mOTA4NDIzODcxMjIifQ.ek80dQBy0YJE--khTmfUKOFIUgG0RRPsHJv2isHpW_0'\
+  -H 'content-length: 319'\
+  -H 'content-type: application/json'\
+  -d '{"title":"You deep little produce until wish.","maxScore":57,"minScore":29,"orderIndex":25,"description":"Side whose kind sing.\nAccording agent bad suggest far source. Voice focus middle understand save contain drug.\nSimple rather reach my. Interview career morning represent class great.","estimatedTime":"10 weeks"}'

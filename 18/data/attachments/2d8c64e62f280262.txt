@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GET request to http://localhost:8000/api/v1/exercises?courseId=84f21d34-a927-45ab-9e61-a3901aa1f55d
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=84f21d34-a927-45ab-9e61-a3901aa1f55d
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:112 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:61 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:31 Check that "id" equals to 8cf25673-cd76-4ddb-b1a5-2a35ea3f8d37
+INFO     BASE_ASSERTIONS:base.py:31 Check that "title" equals to Form its source message imagine.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "description" equals to Stage marriage spend performance study final prepare. Future seem evening under green instead.
+Be off evidence after race goal job board. These clear compare question. Generation sport outside along.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:31 Check that "max_score" equals to 55
+INFO     BASE_ASSERTIONS:base.py:31 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:31 Check that "order_index" equals to 66
+INFO     BASE_ASSERTIONS:base.py:31 Check that "course_id" equals to 84f21d34-a927-45ab-9e61-a3901aa1f55d
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema

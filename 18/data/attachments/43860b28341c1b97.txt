@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM1Ljk4MDYxOCIsInVzZXJfaWQiOiIzYmUwNzhmYy02NzVjLTQ3NWEtYWFmMi01MTVmYTRhNzQyNDkifQ.F9TrkzEsUiY4SiJaeNPFUawsgZmWx-Hju4YbDP9Gt14'\
+  -H 'content-length: 370'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Many thus program.","maxScore":80,"minScore":9,"description":"Mother successful particularly case. Start affect must this. Yet financial indicate his ten.\nRed half follow wrong sign mean new. Have then level blood most.","estimatedTime":"2 weeks","previewFileId":"dceb5ad7-e999-41c4-a6a4-d34069cbcff8","createdByUserId":"3be078fc-675c-475a-aaf2-515fa4a74249"}'

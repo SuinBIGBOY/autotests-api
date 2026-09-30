@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM2LjU4NjgwMSIsInVzZXJfaWQiOiIwNTg0MWM3Yi0zNWYyLTQ5NGEtOWQ0Zi0zY2I0NmU4ZWYzZTQifQ.YrOY7zWoE8YZyyYA28a3nWwbjS0enR5z-jQKNoqFxbs'\
+  -H 'content-length: 373'\
+  -H 'content-type: application/json'\
+  -d '{"title":"People between response.","maxScore":100,"minScore":9,"description":"Approach protect show type whole wait third there. Husband me program cause the significant prevent. Style call professional agree professor career dream.","estimatedTime":"3 weeks","previewFileId":"9ff117cd-e0a5-4c45-914c-880348f3602c","createdByUserId":"05841c7b-35f2-494a-9d4f-3cb46e8ef3e4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM3LjY5NzEwMyIsInVzZXJfaWQiOiI0OTRkZDVkYi1kNWFlLTQ2M2QtYjBmMi1mOTA4NDIzODcxMjIifQ.ek80dQBy0YJE--khTmfUKOFIUgG0RRPsHJv2isHpW_0'\
+  -H 'content-length: 335'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Majority staff natural production.","maxScore":57,"minScore":12,"description":"Bit prove course glass idea. Guess still relate throw support book one. Resource radio involve sell least.","estimatedTime":"3 weeks","previewFileId":"43f5c56b-5b4a-4232-9b82-271985429839","createdByUserId":"494dd5db-d5ae-463d-b0f2-f90842387122"}'

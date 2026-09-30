@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:31 Check that "title" equals to Occur sister sea check candidate social.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:31 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:31 Check that "order_index" equals to 86
+INFO     BASE_ASSERTIONS:base.py:31 Check that "description" equals to Goal spend among east evidence. What green which follow true. Father sell theory crime.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:31 Check that "course_id" equals to 22003789-e223-49d0-b591-c18ec13546e2
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema

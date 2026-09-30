@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM3LjEwMDkyNCIsInVzZXJfaWQiOiIyMmQ5OTI0MS1iM2EyLTQ3MDUtYTI1Ny00MjdhYWY4MjAzMjMifQ.Kc5_9G7r6YhAgcqr37rQLUaxjKJcclZGC63lRr5N5HQ'\
+  -H 'content-length: 409'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Benefit nor late.","maxScore":90,"minScore":10,"description":"Gun able region identify sense exist team may. Mrs important task campaign have fight fly.\nMatter parent mission special student address. Building religious whatever peace indeed stuff we soldier.","estimatedTime":"3 weeks","previewFileId":"54f0bf22-f0d1-4590-894f-97d07c53c07c","createdByUserId":"22d99241-b3a2-4705-a257-427aaf820323"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/exercises\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM5LjM0NDIyMSIsInVzZXJfaWQiOiI1MzdlZDYwZC03ZDlmLTRhMWUtOTQzNy0xMDI4YmZjNDkwYjgifQ.Jyl1hpIkD7eY6AErK2PX9vEgBYTDvOBgBZ345yzMvOA'\
+  -H 'content-length: 382'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Form its source message imagine.","courseId":"84f21d34-a927-45ab-9e61-a3901aa1f55d","maxScore":55,"minScore":30,"orderIndex":66,"description":"Stage marriage spend performance study final prepare. Future seem evening under green instead.\nBe off evidence after race goal job board. These clear compare question. Generation sport outside along.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM1LjIxMjEyOSIsInVzZXJfaWQiOiI0ZTk3NzVlMi1lY2QwLTQxOTktYjUxYS1mNGExNjhmY2RhOTcifQ.NXUMDr63W7Am4ts7v5_UNFR2L8MC668y_sIwdS8Yy88'\
+  -H 'content-length: 387'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Kind risk find move.","maxScore":81,"minScore":23,"description":"Beautiful us her decision increase area.\nImprove inside figure man pattern decision. Loss action possible game fire better president instead. Conference cell concern fast.","estimatedTime":"1 weeks","previewFileId":"b158450d-8b0e-4fd7-92b5-aec3f3df77a8","createdByUserId":"4e9775e2-ecd0-4199-b51a-f4a168fcda97"}'

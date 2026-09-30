@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM4LjIwODMzMSIsInVzZXJfaWQiOiJmYmM2NWU5YS1iYjVkLTQ2ZmItYWFjZC05MTE1ZjJkNTI3MmQifQ.kYqZJFlhSo6Jbz6naXpBsGLwgSOdhb8IO4mEB_fRJ68'\
+  -H 'content-length: 364'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Occur rule increase among investment.","maxScore":94,"minScore":13,"description":"Those world statement music item eight her one. Here store relate commercial environment. Relate machine approach rest coach still.","estimatedTime":"10 weeks","previewFileId":"666deddc-dd18-41ea-bf03-83298ddb542d","createdByUserId":"fbc65e9a-bb5d-46fb-aacd-9115f2d5272d"}'

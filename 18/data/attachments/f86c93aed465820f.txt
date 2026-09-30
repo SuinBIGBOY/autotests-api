@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM5LjM0NDIyMSIsInVzZXJfaWQiOiI1MzdlZDYwZC03ZDlmLTRhMWUtOTQzNy0xMDI4YmZjNDkwYjgifQ.Jyl1hpIkD7eY6AErK2PX9vEgBYTDvOBgBZ345yzMvOA'\
+  -H 'content-length: 421'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Animal five involve young notice place.","maxScore":63,"minScore":21,"description":"Order buy local race because be others peace. Difference capital free machine management watch.\nResponsibility make star resource responsibility similar American. Fly west better middle.","estimatedTime":"9 weeks","previewFileId":"f7d5b933-4d31-4079-911f-9262c77ae562","createdByUserId":"537ed60d-7d9f-4a1e-9437-1028bfc490b8"}'

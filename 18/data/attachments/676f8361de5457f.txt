@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM4LjgzNTI5MCIsInVzZXJfaWQiOiIwNmRmYmE3OS1lZWRhLTQ2YTAtYjRhZi1hZGM0ZDQyODkxZDIifQ.392HCEY42IBsrJ9oMVZdePTQpc7Nh-96zo9vnvNxSjk'\
+  -H 'content-length: 407'\
+  -H 'content-type: application/json'\
+  -d '{"title":"After surface thousand here political long.","maxScore":54,"minScore":18,"description":"Five kitchen trade involve. Citizen cover position region guy. Get world common tend such three.\nIdentify indeed you year notice describe fund. Building write standard.","estimatedTime":"7 weeks","previewFileId":"ed881de6-d1ae-4ad6-afc1-52909362bf04","createdByUserId":"06dfba79-eeda-46a0-b4af-adc4d42891d2"}'

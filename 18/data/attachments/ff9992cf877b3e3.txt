@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/exercises\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEzOjA5OjM4LjIwODMzMSIsInVzZXJfaWQiOiJmYmM2NWU5YS1iYjVkLTQ2ZmItYWFjZC05MTE1ZjJkNTI3MmQifQ.kYqZJFlhSo6Jbz6naXpBsGLwgSOdhb8IO4mEB_fRJ68'\
+  -H 'content-length: 359'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Machine physical easy trial.","courseId":"8c190cb5-4969-4fa2-99b7-0173259d6341","maxScore":52,"minScore":16,"orderIndex":70,"description":"Lose throughout town water federal. Strong drive music perform represent share information. Method history bring girl.\nThem boy road lose participant by. Dark positive thus program.","estimatedTime":"1 weeks"}'

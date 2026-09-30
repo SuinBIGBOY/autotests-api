@@ -1,0 +1,16 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GET request to http://localhost:8000/api/v1/files/6e82b566-098c-4fbe-9202-f90510b37535
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files/6e82b566-098c-4fbe-9202-f90510b37535
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     FILES_ASSERTIONS:files.py:60 Check get file response
+INFO     FILES_ASSERTIONS:files.py:42 Check file
+INFO     BASE_ASSERTIONS:base.py:31 Check that "id" equals to 6e82b566-098c-4fbe-9202-f90510b37535
+INFO     BASE_ASSERTIONS:base.py:31 Check that "id" equals to f846a251-d5a7-467c-8731-24af35da9f9c.png
+INFO     BASE_ASSERTIONS:base.py:31 Check that "id" equals to tests
+INFO     BASE_ASSERTIONS:base.py:31 Check that "id" equals to http://localhost:8000/static/tests/f846a251-d5a7-467c-8731-24af35da9f9c.png
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema
