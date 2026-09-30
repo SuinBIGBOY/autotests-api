@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEwOjE1OjE4Ljk1Mjc5NiIsInVzZXJfaWQiOiJjZWY1YjMyOS0yNGU3LTQyMTUtOGVhYy1mYzQzMGZhOTU5MWQifQ.hy9_7QYU9JNGIPulaC45gdqCAdTV4fO17_vDfSkgRno'\
+  -H 'content-length: 391'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Cell woman result.","maxScore":77,"minScore":14,"description":"Project home keep section. Far six reduce small wide less for.\nInside think speak. Might site stand individual billion. Leader audience indicate grow everybody place film agent.","estimatedTime":"1 weeks","previewFileId":"bb2b0c59-0a51-48b1-b8d9-f47728ed6589","createdByUserId":"cef5b329-24e7-4215-8eac-fc430fa9591d"}'

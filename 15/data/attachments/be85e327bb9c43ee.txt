@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEwOjE1OjIxLjQ2NDQ0MCIsInVzZXJfaWQiOiIzZDEyMDYxZC05ZjE1LTQ2YzAtYjdlNy1lZmU3OTA1NzFlY2EifQ.xr5YflP8zGoq1r6euEJofifvKkdQ06D0h4sr9795uWA'\
+  -H 'content-length: 420'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Point pattern thought professor try office personal.","maxScore":74,"minScore":11,"description":"Season enough again carry may myself ability.\nPast laugh operation majority into add quickly loss. Production officer be read see. Simple management him simply name little.","estimatedTime":"6 weeks","previewFileId":"ae226806-09de-4312-8000-a468b89a811a","createdByUserId":"3d12061d-9f15-46c0-b7e7-efe790571eca"}'

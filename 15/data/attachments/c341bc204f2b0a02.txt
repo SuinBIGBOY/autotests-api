@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEwOjE1OjIxLjE5MTAzNiIsInVzZXJfaWQiOiJlZDA0Yjk5My1iYTA4LTQzNjEtODBjMS1lM2M3MTEzYTUxYmIifQ.GZGtyhJCwX0z0EYdlGXYP7Mbrxssr1qm2Q34gj23ycg'\
+  -H 'content-length: 337'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Game style line take.","maxScore":71,"minScore":12,"description":"Discover by production leg public you key visit. Loss focus address indeed. Better difficult soon defense look to should.","estimatedTime":"5 weeks","previewFileId":"6be67b72-2b22-4693-8cb1-f24f8619cd04","createdByUserId":"ed04b993-ba08-4361-80c1-e3c7113a51bb"}'

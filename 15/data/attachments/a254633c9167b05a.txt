@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/exercises\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEwOjE1OjIxLjE5MTAzNiIsInVzZXJfaWQiOiJlZDA0Yjk5My1iYTA4LTQzNjEtODBjMS1lM2M3MTEzYTUxYmIifQ.GZGtyhJCwX0z0EYdlGXYP7Mbrxssr1qm2Q34gj23ycg'\
+  -H 'content-length: 324'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Many purpose detail bag PM born public seek.","courseId":"9c81a3f2-1170-4268-b06b-8b116f9dd09a","maxScore":77,"minScore":12,"orderIndex":18,"description":"Nation mean news away so wear position. Bank adult clearly allow end already. Majority girl charge morning guess raise next relate.","estimatedTime":"8 weeks"}'

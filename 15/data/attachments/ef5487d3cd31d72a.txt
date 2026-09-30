@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEwOjE1OjIyLjcyOTE5MCIsInVzZXJfaWQiOiJhMzJkNzE0NS0wMTk1LTQ0NjItODQyNy03NmE2YzNhMzZlOGEifQ.7ygHhH6El5f-skWROtC0zv255CHEraYZTVH9kCS0tjY'\
+  -H 'content-length: 377'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Quality seem father customer Republican consumer.","maxScore":54,"minScore":20,"description":"Resource its fight require though especially. Attorney bit body impact someone cost for.\nPurpose forget finally suddenly investment.","estimatedTime":"9 weeks","previewFileId":"c93614a4-c7f4-4836-8449-56572eec6015","createdByUserId":"a32d7145-0195-4462-8427-76a6c3a36e8a"}'

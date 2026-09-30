@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDEwOjE1OjE5LjkzNzY0NiIsInVzZXJfaWQiOiI3MTNkNDE4YS03ZjQ1LTRkODItYjVkYy1lZTNlOWEzZjFjNTMifQ.cfbDbC0_OkV-PrRGIUMCpK_SLr-QScoxEexdQ5Ix3QY'\
+  -H 'content-length: 369'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Will sport series scientist.","maxScore":65,"minScore":3,"description":"Reason until hard enter not cause. Phone home case current worry number. Short among make indeed open training. Student visit spend even step help.","estimatedTime":"7 weeks","previewFileId":"66ced8ad-3544-4a44-9df1-13d3523cd980","createdByUserId":"713d418a-7f45-4d82-b5dc-ee3e9a3f1c53"}'
