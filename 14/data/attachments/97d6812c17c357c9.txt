@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  http://localhost:8000/api/v1/courses/f43e3c33-9302-4f12-8192-371a917ed4b4\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDA5OjU3OjI5LjM0ODYzMCIsInVzZXJfaWQiOiJkODIzYmYwMC1jMWQzLTRiYzEtODNiNy0xMTdlNDhlNWZmMjAifQ.X93SaHkQ7f5PuyHbY4OFou-LhlFn_vFGFJCoKgq9Xnk'\
+  -H 'content-length: 307'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Character quality popular project social thus raise.","maxScore":90,"minScore":18,"description":"Describe financial president record. Discussion from side just.\nEducation would something box history building wind ask. During business manager practice throw nor recent.","estimatedTime":"5 weeks"}'

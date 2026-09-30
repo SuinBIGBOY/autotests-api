@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDA5OjU3OjMzLjQ1MTIxOSIsInVzZXJfaWQiOiIzOGNiZTFhMy0wZjNiLTRlMTgtYTUzMC05NDlmZDdkMWQ2M2QifQ.K5la7h6tcGqmwyuGee1z4FiwjOmjyyR6PKYwH44hETQ'\
+  -H 'content-length: 401'\
+  -H 'content-type: application/json'\
+  -d '{"title":"World Mr he number something hotel agency.","maxScore":100,"minScore":11,"description":"Ago mention card above task mention. Industry clearly three fact statement realize last. Above model build much different benefit through think.\nYour leader each.","estimatedTime":"5 weeks","previewFileId":"79f2d67a-f2a0-4b58-9f0e-c5588f53d779","createdByUserId":"38cbe1a3-0f3b-4e18-a530-949fd7d1d63d"}'

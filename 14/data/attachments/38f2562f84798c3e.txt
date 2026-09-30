@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDA5OjU3OjMwLjk2ODIwNSIsInVzZXJfaWQiOiI2ZmRmYzZhMS00MWQwLTRjNjMtYjUzMS05YmVmZGI1YTNmYmQifQ.MSRZYJu5ZaMYmmn4IkmLlNDLb-Yj_91qmCrPU0LeLMA'\
+  -H 'content-length: 383'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Page state share system drive hot professional.","maxScore":64,"minScore":15,"description":"Agent west off scene election lot field. Process cause Mrs produce American else. Degree activity form our really standard thousand marriage.","estimatedTime":"2 weeks","previewFileId":"62f8a1e5-1dce-4632-8653-81583859c843","createdByUserId":"6fdfc6a1-41d0-4c63-b531-9befdb5a3fbd"}'

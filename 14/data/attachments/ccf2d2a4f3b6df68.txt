@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:31 Check that "title" equals to Toward community smile feeling can.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:31 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:31 Check that "order_index" equals to 3
+INFO     BASE_ASSERTIONS:base.py:31 Check that "description" equals to Benefit mother information bad Mr next. Board quickly age appear small find issue. Position explain likely necessary east contain see manage.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:31 Check that "course_id" equals to 2e6f87cd-83c5-4218-a0dc-024538d712f2
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema

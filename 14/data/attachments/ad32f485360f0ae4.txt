@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCH request to http://localhost:8000/api/v1/courses/f43e3c33-9302-4f12-8192-371a917ed4b4
+INFO     HTTP_LOGGER:event_hooks.py:30 Got response 200 OK from http://localhost:8000/api/v1/courses/f43e3c33-9302-4f12-8192-371a917ed4b4
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:31 Check that "title" equals to Character quality popular project social thus raise.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "max_score" equals to 90
+INFO     BASE_ASSERTIONS:base.py:31 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:31 Check that "description" equals to Describe financial president record. Discussion from side just.
+Education would something box history building wind ask. During business manager practice throw nor recent.
+INFO     BASE_ASSERTIONS:base.py:31 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validation JSON Schema

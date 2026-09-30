@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDA5OjU3OjMwLjEyNjE3MyIsInVzZXJfaWQiOiI3MTM1MmRlMi1mMDg1LTQzODgtODI3Yy1kODA0YzM3NmU3MzYifQ.F37vLKBoTlVSRs98rU6Z8NoQ4bwzIH0GQQIWliOb7AY'\
+  -H 'content-length: 359'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Establish to late ever.","maxScore":84,"minScore":16,"description":"At event charge late nation hit. Key institution feeling watch ahead. Perhaps wait sister.\nHotel it hair purpose story. Little huge against.","estimatedTime":"8 weeks","previewFileId":"cefb94b6-693d-43b9-98e9-54aff97fcf87","createdByUserId":"71352de2-f085-4388-827c-d804c376e736"}'

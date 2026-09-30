@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDA5OjU3OjMzLjIxMjE3OSIsInVzZXJfaWQiOiJmMWQyZmZiZC1kMzE5LTQ2NDgtYTExZC03NWExZjdjMTdkNjgifQ.F2EbRttuWZMFVMgsYjhXtrcd4tafk4ZkJTedfZiz9hw'\
+  -H 'content-length: 406'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Chance upon unit still read.","maxScore":60,"minScore":3,"description":"Final foot glass ground degree art operation. Cup guy commercial himself there.\nFinish sell either doctor specific. Little at thank capital my already. Professional close information.","estimatedTime":"3 weeks","previewFileId":"c7ec4ef6-3226-4e41-93f2-9d0c791f4cbe","createdByUserId":"f1d2ffbd-d319-4648-a11d-75a1f7c17d68"}'

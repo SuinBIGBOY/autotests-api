@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/exercises\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDA5OjU3OjMyLjMyMTQyMSIsInVzZXJfaWQiOiJjOGYzMGRhMi02MzdiLTQ3OWQtOGU3NS1jYTNkMzRmZDYzZTkifQ.P_ENrXs9eAjLtETS-QxVhEVeoAG_pcFLXyFlL8qhGZE'\
+  -H 'content-length: 327'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Guess strategy cause check office leave.","courseId":"2c9f0214-d147-4cd4-b6d7-b00541a21116","maxScore":97,"minScore":26,"orderIndex":100,"description":"Stay require role establish. Player always yourself fall. Can maintain court remain theory service. Network Republican general much kind.","estimatedTime":"4 weeks"}'

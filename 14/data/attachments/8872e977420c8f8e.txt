@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  http://localhost:8000/api/v1/courses\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTMwVDA5OjU3OjMxLjIwNzk1MyIsInVzZXJfaWQiOiJkNjA4MWNiOC00MTE2LTQ1NTQtODZlZi05N2VlNzg4NGJiZGQifQ.YZQFvblqpPQ9lwWL4innoYlq7W2PoEYVM5i2Dv6ha4Y'\
+  -H 'content-length: 356'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Character field glass.","maxScore":62,"minScore":2,"description":"Behavior action little either. Skin resource simply information the although store. Past reality drop.\nScene tell bar. Sometimes close may.","estimatedTime":"1 weeks","previewFileId":"ddee5eb5-e978-4608-b729-ecbbe49f276b","createdByUserId":"d6081cb8-4116-4554-86ef-97ee7884bbdd"}'
